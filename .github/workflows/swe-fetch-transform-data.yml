@@ -33,3 +33,6 @@ jobs:
       - name: Fetch and transform data
         run: |
           python etl_scripts/swe_fetch_transform_data.py
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+            commit_message: Changed files
