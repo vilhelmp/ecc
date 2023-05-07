@@ -35,4 +35,4 @@ jobs:
 
       - name: Fetch and transform data
         run: |
-          python fetch_transform_data_swe.py
+          python etl_scripts/swe_fetch_transform_data.py
