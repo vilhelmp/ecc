@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Fetch and Transform Data
+name: SWE Fetch and Transform Data
 
 # Controls when the workflow will run
 on:
