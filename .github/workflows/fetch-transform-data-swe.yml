@@ -4,9 +4,8 @@ name: Fetch and Transform Data
 
 # Controls when the workflow will run
 on:
-  # Every Monday at 1PM UTC (9AM EST)
-  branches: [ "main" ]
-    schedule: 0 13 * * 1
+  schedule:
+    - cron: "0 9 * * 1" # Run every Monday at 9am UTC
     
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
