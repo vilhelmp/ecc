@@ -46,5 +46,5 @@ df_kk_cur_melt = pd.melt(df_kk_cur, ignore_index=False).rename(columns=dict(valu
 
 df_kk_all = df_kk_chg_melt.merge(df_kk_cur_melt, left_on=['variable', 'date'], right_on=['variable', 'date'])
 
-fname = "bcycle_data_swe.pkl"
+fname = "swe_bcycle_data.pkl"
 df_kk_all.to_pickle(fname)
