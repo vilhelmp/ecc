@@ -6,3 +6,5 @@ Currently it just runs a GitHub Action every Monday to fetch data from SCB (Swed
 ## TODO:  
 - [ ] Create action for incorporating new data into a plotlyt graph and output to html + commit.  
 - [ ] Create Github Pages for project and serve the generated HTML file.  
+- [ ] Expand data with underlying indicators.  
+- [ ] Make sidegraph with underlying indicators, selectable from main graph.
